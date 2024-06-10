@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box1 {
+  max-width: 1600px;
+  height: auto;
+  background-image: url(../img/photo_2024-05-11_12-33-40.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.box1 .child {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 300px;
+  text-align: center;
+}
+.box1 .child p {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 27px;
+}
+.box1 .child h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  font-size: 45px;
+}
+.box1 .child .text1 {
+  margin-top: 30px;
+  font-size: 27px;
+}
+.box1 .child .btn-flip {
+  cursor: pointer;
+  margin: auto;
+  margin-top: 210px;
+  width: 230px;
+  height: 40px;
+  opacity: 1;
+  outline: 0;
+  color: #fff;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+}
+.box1 .child .btn-flip:hover:after {
+  opacity: 1;
+  transform: translateY(0) rotateX(0);
+}
+.box1 .child .btn-flip:hover:before {
+  opacity: 0;
+  transform: translateY(50%) rotateX(90deg);
+}
+.box1 .child .btn-flip:after {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  color: #323237;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  background: #adadaf;
+  content: attr(data-back);
+  transform: translateY(-50%) rotateX(90deg);
+}
+.box1 .child .btn-flip:before {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  color: #adadaf;
+  display: block;
+  padding: 0 30px;
+  line-height: 40px;
+  transition: 0.5s;
+  position: relative;
+  background: #323237;
+  content: attr(data-front);
+  transform: translateY(0) rotateX(0);
+}
+
+@media (max-width: 1200px) {
+  .box1 {
+    padding-bottom: 40px;
+  }
+  .box1 .child {
+    padding-top: 200px;
+  }
+  .box1 .child h1 {
+    font-size: 38px;
+    margin-top: 40px;
+  }
+  .box1 .child p, .box1 .child .text1 {
+    font-size: 24px;
+  }
+  .box1 .child .btn-flip {
+    margin-top: 160px;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .box1 .child .btn-flip:before, .box1 .child .btn-flip:after {
+    line-height: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .box1 {
+    padding-bottom: 30px;
+  }
+  .box1 .child {
+    padding-top: 150px;
+  }
+  .box1 .child h1 {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+  .box1 .child p, .box1 .child .text1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .box1 {
+    padding-bottom: 20px;
+  }
+  .box1 .child {
+    padding-top: 100px;
+  }
+  .box1 .child h1 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  .box1 .child p, .box1 .child .text1 {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=sty.css.map */

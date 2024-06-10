@@ -1,0 +1,67 @@
+.box6{
+    max-width: 1600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0px 50px 170px;
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    .text122{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(0, 145, 255);
+    }
+    button{
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        border: 0;
+        background-color: rgb(0, 145, 255);
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover{
+            color: white;
+            box-shadow: 0px 0px 40px rgb(0, 145, 255) ;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .box6 {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .box6 a,
+    .box6 button {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box6 {
+        padding: 40px 15px;
+        gap: 15px;
+    }
+
+    .box6 button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .box6 {
+        padding: 30px 10px;
+        gap: 10px;
+    }
+
+    .box6 button {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+        margin-left: 0;
+    }
+}

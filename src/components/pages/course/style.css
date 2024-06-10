@@ -1,0 +1,20 @@
+.courses {
+  max-width: 1600px;
+  height: 900px;
+  background-image: url(../img/frontend_webdeveloper.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.courses .child1 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 300px;
+  text-align: center;
+  padding-left: 50px;
+  color: aliceblue;
+  font-size: 70px;
+}/*# sourceMappingURL=style.css.map */

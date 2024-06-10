@@ -1,0 +1,72 @@
+.box2 {
+  max-width: 1600px;
+  height: auto;
+  background-color: var(--box2d);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 20px;
+  transition: all 1s;
+  justify-content: center;
+  padding: 70px 0px 90px 10px;
+  border: 1px solid rgba(86, 86, 86, 0.396);
+}
+.box2 .child {
+  width: 270px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.599);
+  display: flex;
+  border: 2px solid rgba(86, 86, 86, 0.396);
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.box2 .child:hover {
+  box-shadow: 10px 10px 20px var(--box2);
+}
+.box2 .child .Kotta {
+  font-size: 38px;
+  color: rgb(0, 0, 0);
+}
+.box2 .child p {
+  font-size: 20px;
+  transition: all 1s;
+  color: var(--textColor);
+}
+
+@media (max-width: 1200px) {
+  .box2 {
+    grid-template-columns: repeat(auto-fit, 400px);
+  }
+  .child .Kotta {
+    font-size: 32px;
+  }
+  .child p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .child .Kotta {
+    font-size: 28px;
+  }
+  .child p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .child {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  .child .Kotta {
+    font-size: 24px;
+  }
+  .child p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */

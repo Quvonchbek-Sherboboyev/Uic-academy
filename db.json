@@ -1,0 +1,129 @@
+{
+    "Navbars": [
+        {
+            "name": "Kurslarimiz",
+            "images": "./src/img/svgexport-1.png"
+        },
+        {
+            
+            "name" : "Nav logo",
+            "images": "./src/img/logo.png"
+        },
+        {
+            "name": "+998338055995",
+            "images": "./src/img/massage-1.png"
+           
+        }
+       
+        
+    ],
+    "child" :[
+        {
+           "text" : "13 yillik tajriba, 200dan ortiq loyihalar" ,
+           "text2" : "9 yil xalqaro IT loyihalar bilan ishlash va $23 000 dollarlik resurs bitta kursda" ,
+           "text3" : "UIC GROUP VA UIC IT ACADEMY" , 
+           "text4" : "Agar kurslar haqida ma'lumot olmoqchi bo'lsangiz quyidagi forma orqaliy ariza qoldiring"
+        }
+    ], 
+    "Box2" : [
+        {
+            "id" : 1,
+            "text5": "13+ yil" ,
+            "text6" : "Tajribali mentorlar tomonidan darslar  olib boriladi"
+        } ,
+        {
+            "text5": "200+" ,
+            "text6" : "Ishlab chiqilgan loyihalardan orttirilga  tajribani ulashamiz"
+        } ,
+        {
+            "text5": "9 yil" ,
+            "text6" : "Xalqaro loyihalar bilan ishlash tajribasini ulashamiz"
+        },
+        {
+            "text5": "10 yil" ,
+            "text6" : "Mijozlar bilan ishlash ko'nikmasi"
+        },
+        {
+            "text5": "6+ yil" ,
+            "text6" : "Kiberxavfsizlik bo’yicha erishilgan tajribani ulashamiz"
+        },
+        {
+            "text5": "$4M +" ,
+            "text6" : "Investitsiya jalb qilishda yig'gan bilimlar"
+        }
+    ],
+    "Box3" : [
+        {
+           "text0" : "Loyihalarni topish, tenderlarda qatnashish va loyihani muvaffaqiyatli bajarish" ,
+            "text1" : "Ariza berish" , 
+            "img" : "./src/img/world.png"
+        } ,
+        {
+            "text0" : "UI/UX bilimlarini o’rganib  saytlarni go’zallashtirish" ,
+             "text1" : "Ariza berish" , 
+             "img" : "./src/img/icon.png"
+         } ,
+         {
+            "text0" : "Freelance platformalarda    ishlash va ulardan loyihalar topish" ,
+             "text1" : "Ariza berish" , 
+             "img" : "./src/img/icon-1.png"
+         },
+         {
+            "text0" : "Project management asoslarini mutaxasisidan o’rganish" ,
+             "text1" : "Ariza berish" , 
+             "img" : "./src/img/icon-2.png"
+         },
+         {
+            "text0" : "DevOPSlik asoslari: loyihangizni serverga o’rnatib berish, loyihani hackerlik hujumlaridan himoyalash            " ,
+             "text1" : "Ariza berish" , 
+             "img" : "./src/img/icon-2.png"
+         },
+         {
+            "text0" : "SEO optimizatsiya qilib saytlarda savdoni oshirish" ,
+             "text1" : "Ariza berish" , 
+             "img" : "./src/img/icon-3.png"
+         }
+    ] ,
+    "Course" :[
+        {
+            "id": 1,
+            "img" : "./src/components/pages/img/flutter.png" ,
+            "text" : "Mobile Plus  Level Up"
+        }, 
+        { "id": 2,
+            "img" : "./src/components/pages/img/Backend Plus.png" ,
+            "text" : "Backend Plus  Level Up"
+        }, 
+        {
+            "id": 3,
+            "img" : "./src/components/pages/img/Frontend Plus.png" ,
+            "text" : "Frontend Plus   Level Up"
+        }, 
+        {
+            "id": 4,
+            "img" : "./src/components/pages/img/Backend Plus.png" ,
+            "text" : "Mobile Plus  Level Up"
+        }, 
+        {
+            
+            "id": 5,
+            "img" : "./src/components/pages/img/Frontend.png" ,
+            "text" : "Front end "
+        }, 
+        {
+            "id": 6,
+            "img" : "./src/components/pages/img/star-icon.png" ,
+            "text" : "Grand"
+        }
+    ] ,
+    "Footer" : [
+        {
+            
+            "img" : "./src/components/pages/img/footer-logo.png" ,
+            "img1" : "./src/components/pages/img/academy-text.png" ,
+            "text1" : "O'z qadriyatlariga ega IT akademiya."
+        }
+    ] 
+
+
+}

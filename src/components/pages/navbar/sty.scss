@@ -1,0 +1,237 @@
+div {
+
+
+    nav {
+      display: flex;
+      gap: 201px;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.07);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5.5px);
+      -webkit-backdrop-filter: blur(5.5px);
+      padding: 0px 13px 0px 80px;
+      position: fixed;
+      z-index: 999;
+      .course {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        .kurs {
+          a {
+            list-style: none;
+            text-decoration: none;
+            color:var(--textColor);
+            font-family: "Gill Sans", sans-serif;
+            transition: all 0.5s;
+            cursor: pointer;
+          }
+        }
+        
+        &:hover {
+          .kurs {
+            a {
+              color: rgb(0, 115, 255);
+            }
+          }
+        }
+      }
+      
+      .uic {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-left: 180px;
+        
+        .chiz {
+          width: 150px;
+          height: 0;
+          box-shadow: 0 0 20px white;
+        }
+        
+        a {
+          text-decoration: none;
+        }
+      }
+      
+      .tel {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        .massege {
+          width: 150px;
+          height: 40px;
+          border-radius: 10px;
+          border: 0;
+          background-color: rgb(0, 0, 0);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+          font-family: "Gill Sans", sans-serif;
+          transition: all 0.5s;
+          
+          .mas {
+            padding-top: 4px;
+          }
+          
+          a {
+            text-decoration: none;
+            
+            .nomer {
+              color: aliceblue;
+            }
+          }
+        }
+        
+        .massege:hover {
+          box-shadow: 5px 5px 5px var(--textColor);
+        }
+        
+
+          img{
+            cursor: pointer;
+            transition: all 1s;
+          }
+        
+        
+        .sign {
+          width: 130px;
+          height: 40px;
+          background-color: rgb(0, 140, 255);
+          border: 0;
+          border-radius: 10px;
+          cursor: pointer;
+          color: white;
+          font-family: "Gill Sans", sans-serif;
+          transition: all 0.5s;
+        }
+        
+        .sign:hover {
+          background-color: rgb(0, 140, 255);
+          box-shadow: 5px 5px 10px rgb(0, 140, 255);
+        }
+      }
+    }
+  @media (max-width:1550px) {
+      margin: auto;
+     
+      nav{
+        gap: 0px;
+        padding-left: 20px;
+        width: 100%;
+      }
+  }
+    @media (max-width: 1200px) {
+        margin: auto   ;
+      nav {
+        margin: auto;
+        gap: 220px;
+        padding: 10px;
+        
+        .course, .uic, .tel {
+          margin: 0 auto;
+        }
+        
+        .uic {
+          margin-left: 0;
+          .chiz{
+            display: none;
+          }
+        }
+      }
+    }
+    @media (max-width: 1050px) {
+       nav{
+        padding-right: 150px;
+        .tel{
+          .massege{
+            display: none;
+          }
+        }
+       }
+    }
+  @media (max-width:878px) {
+    nav {
+      padding: 0;
+      gap: 0;
+      .course {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      
+      
+      .tel {
+        flex-direction: column;
+        align-items: center;
+        
+        .massege, .dark, .sign {
+          width: 100%;
+          text-align: center;
+        }
+        .sign{
+          display: none;
+        }
+      }
+    }
+  }
+    @media (max-width: 768px) {
+      nav {
+        padding: 0;
+        gap: 0;
+        .course {
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        
+        
+        .tel {
+          flex-direction: column;
+          align-items: center;
+          
+          .massege, .dark, .sign {
+            width: 100%;
+            text-align: center;
+          }
+          .sign{
+            display: none;
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 480px) {
+      nav {
+        gap: 10px;
+        padding: 5px;
+        
+        .course {
+          .kurs {
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+        
+        .uic {
+          gap: 5px;
+          
+         
+        }
+        
+        .tel {
+          gap: 5px;
+          display: none;
+          .massege, .dark, .sign {
+            width: 100%;
+            height: 35px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  

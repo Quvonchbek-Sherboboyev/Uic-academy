@@ -1,0 +1,548 @@
+.courses1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  height: auto;
+  margin-top: 3910px;
+  overflow-x: hidden;
+}
+.courses1 nav {
+  display: flex;
+  gap: 201px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  padding: 0px 13px 0px 80px;
+  position: fixed;
+  z-index: 999;
+  width: 78.9%;
+}
+.courses1 nav .course {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.courses1 nav .course .kurs a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--textColor);
+  font-family: "Gill Sans", sans-serif;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.courses1 nav .course:hover .kurs a {
+  color: rgb(0, 115, 255);
+}
+.courses1 nav .uic {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 180px;
+}
+.courses1 nav .uic .chiz {
+  width: 150px;
+  height: 0;
+  box-shadow: 0 0 20px white;
+}
+.courses1 nav .uic a {
+  text-decoration: none;
+}
+.courses1 nav .tel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.courses1 nav .tel .massege {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+  transition: all 0.5s;
+}
+.courses1 nav .tel .massege .mas {
+  padding-top: 4px;
+}
+.courses1 nav .tel .massege a {
+  text-decoration: none;
+}
+.courses1 nav .tel .massege a .nomer {
+  color: aliceblue;
+}
+.courses1 nav .tel .massege:hover {
+  box-shadow: 5px 5px 5px var(--textColor);
+}
+.courses1 nav .tel img {
+  cursor: pointer;
+  transition: all 1s;
+}
+.courses1 nav .tel .sign {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(0, 140, 255);
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  transition: all 0.5s;
+}
+.courses1 nav .tel .sign:hover {
+  background-color: rgb(0, 140, 255);
+  box-shadow: 5px 5px 10px rgb(0, 140, 255);
+}
+.courses1 .courses {
+  max-width: 1600px;
+  height: 900px;
+  background-image: url(../img/frontend_webdeveloper.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.courses1 .courses .child1 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 300px;
+  text-align: center;
+  padding-left: 50px;
+  color: aliceblue;
+  font-size: 70px;
+}
+.courses1 .child2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transition: all 1s;
+}
+.courses1 .child2 .accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.courses1 .child2 .accordion .acc1 {
+  transition: all 1s;
+  background-color: var(--acc);
+  border-radius: 15px;
+  color: var(--hrColor);
+}
+.courses1 h1 {
+  text-align: center;
+}
+.courses1 .cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.courses1 .cards .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+.courses1 .cards .card img {
+  border-radius: 50%;
+}
+.courses1 .cards .card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+.courses1 .cards .card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.courses1 .cards .card p {
+  font-size: 14px;
+  color: #000000;
+}
+.courses1 .box5-child2 {
+  width: 1220px;
+  height: 370px;
+  background-color: var(--input);
+  margin-left: 170px;
+  border-radius: 15px;
+  display: flex;
+  gap: 40px;
+  transition: all 1s;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.courses1 .box5-child2 .child1 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 30px;
+}
+.courses1 .box5-child2 .child1 p {
+  transition: all 1s;
+  color: var(--p);
+}
+.courses1 .box5-child2 .child1 h2 {
+  font-size: 34px;
+  transition: all 1s;
+  color: var(--textColor);
+}
+.courses1 .box5-child2 .child1 h3 {
+  transition: all 1s;
+  color: var(--textColor);
+  font-size: 22px;
+}
+.courses1 .box5-child2 .child1 .child {
+  width: auto;
+  height: auto;
+  border: 1px solid var(--textColor);
+  transition: all 1s;
+  display: flex;
+  padding: 5px;
+  border-radius: 10px;
+  gap: 20px;
+}
+.courses1 .box5-child2 .child1 .child p {
+  transition: all 1s;
+  color: var(--textColor);
+}
+.courses1 .box5-child2 .child1 .child p a {
+  color: rgb(0, 136, 255);
+  text-decoration: none;
+}
+.courses1 .box5-child2 .child2 {
+  width: 610px;
+  height: 330px;
+  background-color: var(--child2);
+  border-radius: 15px;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  padding: 20px;
+  transition: all 1s;
+}
+.courses1 .box5-child2 .child2 .course,
+.courses1 .box5-child2 .child2 .user,
+.courses1 .box5-child2 .child2 .number {
+  width: 430px;
+  height: 37px;
+  border-radius: 7px;
+  border: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-left: 20px;
+  background-color: var(--course);
+  color: var(--textColor);
+  transition: all 1s;
+}
+@media (max-width: 768px) {
+  .courses1 .box5-child2 .child2 .course,
+  .courses1 .box5-child2 .child2 .user,
+  .courses1 .box5-child2 .child2 .number {
+    width: 100%;
+    font-size: 18px;
+    height: 35px;
+  }
+}
+.courses1 .box5-child2 .child2 .check {
+  display: flex;
+  margin: 0 auto;
+  gap: 65px;
+  align-items: center;
+  transition: all 1s;
+}
+.courses1 .box5-child2 .child2 .check .random-code, .courses1 .box5-child2 .child2 .check .random-input {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding-left: 30px;
+}
+.courses1 .box5-child2 .child2 .btn {
+  width: 450px;
+  height: 49px;
+  margin: 0 auto;
+  border-radius: 7px;
+  border: 0;
+  background-color: rgb(0, 162, 255);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.courses1 .box5-child2 .child2 .btn:hover {
+  color: aliceblue;
+  box-shadow: 0 0 40px rgb(0, 149, 255);
+}
+.courses1 .box5-child2 .child2 .error-message,
+.courses1 .box5-child2 .child2 .success-message {
+  position: absolute;
+  top: -30px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  animation: fadeOut 3s forwards;
+}
+.courses1 .box5-child2 .child2 .success-message {
+  background-color: green;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+.courses1 .box6 {
+  max-width: 1600px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 100px 0px 50px 170px;
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+.courses1 .box6 .text122 {
+  color: black;
+}
+.courses1 .box6 a {
+  text-decoration: none;
+  color: rgb(0, 145, 255);
+}
+.courses1 .box6 button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(0, 145, 255);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.courses1 .box6 button:hover {
+  color: white;
+  box-shadow: 0px 0px 40px rgb(0, 145, 255);
+}
+.courses1 .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  height: auto;
+  color: aliceblue;
+  background-color: var(--footer);
+  padding-bottom: 30px;
+  transition: all 1s;
+}
+.courses1 .footer .footer-child1 {
+  padding: 80px 0 0 200px;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(auto-fit, 400px);
+  color: var(--textColor);
+}
+.courses1 .footer .footer-child1 .child-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 1s;
+}
+.courses1 .footer .footer-child1 .child-1 .child-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: all 1s;
+  cursor: pointer;
+}
+.courses1 .footer .footer-child1 .child-1 p {
+  color: var(--textColor);
+  transition: all 1s;
+}
+.courses1 .footer .footer-child1 .child1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 1s;
+}
+.courses1 .footer .footer-child1 .child1 p {
+  cursor: pointer;
+  transition: all 0.5s;
+  color: var(--textColor);
+  transition: all 1s;
+}
+.courses1 .footer .footer-child1 .child1 p:hover {
+  color: rgb(0, 119, 255);
+}
+.courses1 .footer .footer-child1 .child1 a {
+  text-decoration: none;
+  color: white;
+}
+.courses1 .footer hr {
+  margin: auto;
+}
+.courses1 .footer .map {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  border-radius: 22px;
+  border: 0;
+  box-shadow: 0 0 40px var(--map);
+  transition: all 1s;
+}
+.courses1 .footer .footer-child2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.courses1 .footer .footer-child2 .child3 {
+  padding: 0px 0 0 200px;
+  display: flex;
+  gap: 830px;
+}
+.courses1 .footer .footer-child2 .child3 p {
+  color: var(--textColor);
+  transition: all 1s;
+}
+.courses1 .footer .footer-child2 .child3 .child4 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .courses1 .box3 .box3- {
+    padding: 120px 0px 60px 120px;
+  }
+  .courses1 .box3 .box3- .box3-parent1 .parent1-child1, .courses1 .box3 .box3- .box3-parent1 .parent2-child1, .courses1 .box3 .box3- .box3-parent1 .parent3-child1, .courses1 .box3 .box3- .box3-parent1 .parent3-child3, .courses1 .box3 .box3- .box3-parent2 .parent1-child1, .courses1 .box3 .box3- .box3-parent2 .parent2-child1, .courses1 .box3 .box3- .box3-parent2 .parent3-child1, .courses1 .box3 .box3- .box3-parent2 .parent3-child3, .courses1 .box3 .box3- .box3-parent3 .parent1-child1, .courses1 .box3 .box3- .box3-parent3 .parent2-child1, .courses1 .box3 .box3- .box3-parent3 .parent3-child1, .courses1 .box3 .box3- .box3-parent3 .parent3-child3 {
+    width: 320px;
+    padding: 15px 0px 0px 15px;
+  }
+  .courses1 .box3 .box3- .box3-parent1 .parent1-child2, .courses1 .box3 .box3- .box3-parent1 .parent3-child2, .courses1 .box3 .box3- .box3-parent2 .parent1-child2, .courses1 .box3 .box3- .box3-parent2 .parent3-child2, .courses1 .box3 .box3- .box3-parent3 .parent1-child2, .courses1 .box3 .box3- .box3-parent3 .parent3-child2 {
+    width: 340px;
+    height: 200px;
+  }
+  .courses1 .box3 .box3- .box3-parent1 .parent1-child3, .courses1 .box3 .box3- .box3-parent1 .parent2-child2, .courses1 .box3 .box3- .box3-parent2 .parent1-child3, .courses1 .box3 .box3- .box3-parent2 .parent2-child2, .courses1 .box3 .box3- .box3-parent3 .parent1-child3, .courses1 .box3 .box3- .box3-parent3 .parent2-child2 {
+    width: 340px;
+  }
+  .courses1 .box5-child2 {
+    width: 700px;
+    height: auto;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 30px;
+  }
+  .courses1 .box5-child2 .child1 {
+    padding: 40px;
+    gap: 20px;
+  }
+  .courses1 .box5-child2 .child1 h2 {
+    font-size: 30px;
+  }
+  .courses1 .box5-child2 .child1 h3 {
+    font-size: 20px;
+  }
+  .courses1 .box5-child2 .child2 {
+    gap: 20px;
+    margin: auto;
+  }
+  .courses1 .box5-child2 .child2 .course, .courses1 .box5-child2 .child2 .user, .courses1 .box5-child2 .child2 .number {
+    width: 400px;
+  }
+  .courses1 .box5-child2 .child2 .check {
+    margin-left: 50px;
+  }
+  .courses1 .box5-child2 .child2 .btn {
+    width: 400px;
+  }
+  .footer {
+    gap: 100px;
+  }
+  .footer .footer-child1 {
+    padding: 60px 0 0 100px;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+  .footer .map {
+    width: 1000px;
+    height: 500px;
+  }
+  .footer .footer-child2 {
+    gap: 30px;
+  }
+  .footer .footer-child2 .child3 {
+    padding: 0 0 0 0;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-child2 .child3 .child4 {
+    gap: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer {
+    gap: 100px;
+  }
+  .footer .footer-child1 {
+    padding: 60px 0 0 100px;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+  .footer .map {
+    width: 1000px;
+    height: 500px;
+  }
+  .footer .footer-child2 {
+    gap: 30px;
+  }
+  .footer .footer-child2 .child3 {
+    padding: 0 0 0 0;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-child2 .child3 .child4 {
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    gap: 100px;
+  }
+  .footer .footer-child1 {
+    padding: 60px 0 0 100px;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+  .footer .map {
+    width: 1000px;
+    height: 500px;
+  }
+  .footer .footer-child2 {
+    gap: 30px;
+  }
+  .footer .footer-child2 .child3 {
+    padding: 0 0 0 0;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-child2 .child3 .child4 {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=sty.css.map */

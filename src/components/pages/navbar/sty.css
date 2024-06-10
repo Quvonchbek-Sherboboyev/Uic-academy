@@ -1,0 +1,191 @@
+div nav {
+  display: flex;
+  gap: 201px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  padding: 0px 13px 0px 80px;
+  position: fixed;
+  z-index: 999;
+}
+div nav .course {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+div nav .course .kurs a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--textColor);
+  font-family: "Gill Sans", sans-serif;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+div nav .course:hover .kurs a {
+  color: rgb(0, 115, 255);
+}
+div nav .uic {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 180px;
+}
+div nav .uic .chiz {
+  width: 150px;
+  height: 0;
+  box-shadow: 0 0 20px white;
+}
+div nav .uic a {
+  text-decoration: none;
+}
+div nav .tel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+div nav .tel .massege {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+  transition: all 0.5s;
+}
+div nav .tel .massege .mas {
+  padding-top: 4px;
+}
+div nav .tel .massege a {
+  text-decoration: none;
+}
+div nav .tel .massege a .nomer {
+  color: aliceblue;
+}
+div nav .tel .massege:hover {
+  box-shadow: 5px 5px 5px var(--textColor);
+}
+div nav .tel img {
+  cursor: pointer;
+  transition: all 1s;
+}
+div nav .tel .sign {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(0, 140, 255);
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  transition: all 0.5s;
+}
+div nav .tel .sign:hover {
+  background-color: rgb(0, 140, 255);
+  box-shadow: 5px 5px 10px rgb(0, 140, 255);
+}
+@media (max-width: 1550px) {
+  div {
+    margin: auto;
+  }
+  div nav {
+    gap: 0px;
+    padding-left: 20px;
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  div {
+    margin: auto;
+  }
+  div nav {
+    margin: auto;
+    gap: 220px;
+    padding: 10px;
+  }
+  div nav .course, div nav .uic, div nav .tel {
+    margin: 0 auto;
+  }
+  div nav .uic {
+    margin-left: 0;
+  }
+  div nav .uic .chiz {
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  div nav {
+    padding-right: 150px;
+  }
+  div nav .tel .massege {
+    display: none;
+  }
+}
+@media (max-width: 878px) {
+  div nav {
+    padding: 0;
+    gap: 0;
+  }
+  div nav .course {
+    flex-direction: column;
+    align-items: center;
+  }
+  div nav .tel {
+    flex-direction: column;
+    align-items: center;
+  }
+  div nav .tel .massege, div nav .tel .dark, div nav .tel .sign {
+    width: 100%;
+    text-align: center;
+  }
+  div nav .tel .sign {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  div nav {
+    padding: 0;
+    gap: 0;
+  }
+  div nav .course {
+    flex-direction: column;
+    align-items: center;
+  }
+  div nav .tel {
+    flex-direction: column;
+    align-items: center;
+  }
+  div nav .tel .massege, div nav .tel .dark, div nav .tel .sign {
+    width: 100%;
+    text-align: center;
+  }
+  div nav .tel .sign {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  div nav {
+    gap: 10px;
+    padding: 5px;
+  }
+  div nav .course .kurs a {
+    font-size: 14px;
+  }
+  div nav .uic {
+    gap: 5px;
+  }
+  div nav .tel {
+    gap: 5px;
+    display: none;
+  }
+  div nav .tel .massege, div nav .tel .dark, div nav .tel .sign {
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=sty.css.map */

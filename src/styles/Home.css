@@ -1,0 +1,132 @@
+.container{
+    margin: auto;
+    max-width: 1600px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+:root {
+  --textColor: black;
+  --backColor: white;
+  --hrColor: #e2e2e2;
+  --popular: #252525;
+  --box2: black;
+  --box2d: #eee;
+  --box3d: #eee;
+  --box3t: rgb(59, 59, 59);
+  --course: #c9d7ff;
+  --input: #b4b4b4;
+  --p: rgb(20, 20, 20);
+  --child2: #868686;
+  --footer: #b3b3b3;
+  --map: rgb(0, 0, 0);
+  --acc: black;
+}
+
+.darkMode {
+  --acc: white;
+  --textColor: white;
+  --backColor:  #0d1014;
+  --hrColor: black;
+  --popular: white;
+  --box2:  rgb(187, 187, 187);
+  --box2d : rgba(86, 86, 86, 0.396);
+  --box3d:  #0d1014;
+  --box3t: rgb(205, 205, 205);
+  --course: #292929;
+  --input: #292929;
+  --p:  rgb(212, 205, 199);
+  --child2: #3e3e3e;
+  --footer:  #0d1014;
+  --map: rgb(255, 255, 255);
+}
+
+body {
+  background-color: var(--backColor);
+  transition: all 1s;
+}
+
+hr {
+  background-color: var(--hrColor);
+}
+
+.popular {
+  color: var(--popular);
+}
+
+/* Home.css */
+.fab-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.floating-action-button {
+  position: relative;
+  background-color: #007bff; /* Main button color */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  color: #fff; /* Icon color */
+  font-size: 30px; /* Icon size */
+}
+
+.floating-action-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.floating-action-button.open {
+  transform: rotate(45deg); /* Rotate when menu is open */
+}
+
+.fab-options {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fab-option {
+  background-color: #fff; /* Background color of option buttons */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s;
+  color: #000; /* Icon color */
+  font-size: 24px; /* Icon size */
+  margin-bottom: 10px; /* Space between buttons */
+}
+
+.fab-option:hover {
+  background-color: #f1f1f1; /* Hover effect for option buttons */
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media (max-width: 1200px) {
+  .fab-options {
+    bottom: 90px; /* Masala qilinadigan yoki qo'llaniladigan bo'lsa, bu qiymatni o'zgartiring */
+  }
+}
+
+
+
+

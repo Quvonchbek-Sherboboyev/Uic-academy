@@ -1,0 +1,36 @@
+#app {
+  padding-top: 50px;
+  height: 100%;
+}
+.swiper {
+  transition: all 1s;
+  width: 100%;
+  height: 400px;
+  background-color: var(--backColor);
+}
+.t1{
+  padding-top: 150px;
+  transition: all 1s;
+  text-align: center;
+}
+
+.swiper-slide {
+  
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  gap:100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.first{
+  width: 400px;
+  height: 300px;
+}

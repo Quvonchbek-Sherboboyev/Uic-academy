@@ -1,0 +1,465 @@
+.box3{
+    max-width: 1600px;
+    height: auto;
+    background-color: var(--box3d);
+    transition: all 1s;
+    padding-bottom: 50px;
+   .box3-{
+    max-width: 1600px;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,400px);
+    padding: 150px 0px 80px 170px;
+    gap: 20px;
+    .box3-parent1{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .parent1-child1{
+            padding: 20px 0px 0px 20px;
+            width: 360px;
+            height: auto;
+            background-color:none;
+            border: 1px solid gray;
+            border-radius: 12px;
+            display: flex;
+            gap:10px ;
+            .child{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                transition: all 1s;
+                p{ transition: all 1s;
+                    color: var(--box3t);
+                }
+                h3{ transition: all 1s;
+                    color: var(--textColor);
+                }
+            }
+        }
+        .parent1-child2{
+            width: 380px;
+            height: 230px;
+            background-image: url(../img/banner_1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            opacity: 0.5;
+            transition: all 0.5s;
+            &:hover{
+                opacity: 1.0;
+            }
+            p{
+                color: white;
+                padding-top: 40px;
+                opacity: 1.6;
+            }
+            h1{
+                padding-top: 30px;
+                font-size: 40px;
+            }
+
+        }
+        .parent1-child3{
+            width: 380px;
+            height: auto;
+            background-color:none;
+            border: 1px solid gray;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            p{
+                color: var(--box3t);
+                font-size: 15px; transition: all 1s;
+            }
+            .text{
+                color: var(--textColor);
+                font-size: 20px; transition: all 1s;
+            }
+        }
+
+    }
+    .box3-parent2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .parent2-child1{
+            padding: 20px 0px 0px 20px;
+            width: 360px;
+            height: auto;
+            background-color: none;
+            border: 1px solid gray;
+            border-radius: 12px;
+            display: flex;
+           
+            gap:60px;
+            .child{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                p{ transition: all 1s;
+                    color: var(--box3t);
+                }
+                h3{ transition: all 1s;
+                    color: var(--textColor);
+                }
+            }
+            .fast{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .parent2-child2{
+            width: 380px;
+            height: 360px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            opacity: 0.6;
+            transition: all 0.5s;
+            &:hover{
+                opacity: 1;
+            }
+        }
+
+    }
+    .box3-parent3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .parent3-child1{
+            padding: 20px 0px 0px 20px;
+            width: 360px;
+            height: auto;
+            background-color:none;
+            border: 1px solid gray;
+            border-radius: 12px;
+            display: flex;
+            gap:50px;
+            .child{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                p{ transition: all 1s;
+                    color: var(--box3t);
+                }
+                h3{ transition: all 1s;
+                    color: var(--textColor);
+                }
+            }
+        }
+        .parent3-child2{
+            width: 380px;
+            height: 200px;
+            background-image: url(../img/banner_1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            opacity: 0.5;
+            transition: all 0.5s;
+            &:hover{
+                opacity: 1.0;
+            }
+            p{
+                color: white;
+                padding-top: 130px;
+                padding-left: 30px;
+                opacity: 1.6;
+                font-size: 20px;
+            }
+        }
+        .parent3-child3{
+            padding: 20px 0px 25px 20px;
+            width: 360px;
+            height: auto;
+            background-color: none;
+            border-radius: 12px;
+            border: 1px solid gray;
+            display: flex;
+            gap:10px ;
+            .child{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                p{ transition: all 1s;
+                    color: var(--box3t);
+                }
+                h3{ transition: all 1s;
+                    color: var(--textColor);
+                }
+            }
+        }
+
+    }
+
+} 
+    .box3-1{
+        max-width: 1600px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+        h1{
+            text-align: center;
+            padding-top: 50px;
+            transition: all 1s;
+            color:var(--textColor);
+            font-size: 40px;
+        }
+        .box3-1child{
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(auto-fit,400px);
+            margin-left: 170px;
+            
+            .child1{
+                width: 300px;
+                height: 200px;
+                border-radius: 12px;
+                transition: all 1s;
+                border:  0.9px groove var(--textColor);
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                padding: 30px;
+                color: var(--textColor);
+                .child2{
+                    display: flex;
+                    align-items: center;
+                    gap: 150px;
+                    .btn{
+                        width: 100px;
+                        height: 30px;
+                        background-color: rgb(0, 123,255);
+                        border-radius: 10px;
+                        border: 0;
+                        transition: all 0.5s;
+                        color: black;
+                        a{
+                            text-decoration: none;
+                            color: black;
+
+                        }
+                        &:hover{
+                            box-shadow: 0px 0 20px rgb(0, 123,255);
+                            color: aliceblue;
+                            cursor: pointer;
+                        }
+
+
+                    }
+                }
+            }
+            .child12{
+                width: 300px;
+                height: 200px;
+                border-radius: 12px;
+                border:  0.9px groove var(--textColor);
+                display: flex;
+                flex-direction: column;
+                transition: all 1s;
+                padding: 30px;
+                color: var(--textColor);
+                hr{
+                    margin-top: 61px;
+                }
+                .child2{
+                    display: flex;
+                    align-items: center;
+                    gap: 150px;
+                    margin-top: 41px;
+                    .btn{
+                        width: 100px;
+                        height: 30px;
+                        background-color: rgb(0, 123,255);
+                        border-radius: 10px;
+                        border: 0;
+                        transition: all 0.5s;
+                        a{
+                            text-decoration: none;
+
+                        }
+                        &:hover{
+                            box-shadow: 0px 0 20px rgb(0, 123,255);
+                            color: aliceblue;
+                            cursor: pointer;
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .box3 .box3- {
+        padding: 120px 0px 60px 120px;
+
+        .box3-parent1, .box3-parent2, .box3-parent3 {
+            .parent1-child1, .parent2-child1, .parent3-child1, .parent3-child3 {
+                width: 320px;
+                padding: 15px 0px 0px 15px;
+            }
+
+            .parent1-child2, .parent3-child2 {
+                width: 340px;
+                height: 200px;
+            }
+
+            .parent1-child3, .parent2-child2 {
+                width: 340px;
+            }
+        }
+    }
+
+    .box3-1 .box3-1child {
+        padding: 0px 0px 30px 10px;
+
+        .child1, .child12 {
+            width: 280px;
+            height: 180px;
+            padding: 25px;
+        }
+    }
+}
+@media (max-width: 888px) {
+    .box3 .box3- {
+        padding: 100px 0px 50px 250px;
+
+        .box3-parent1, .box3-parent2, .box3-parent3 {
+            .parent1-child1, .parent2-child1, .parent3-child1, .parent3-child3 {
+                width: 350px;
+                padding: 10px 0px 0px 10px;
+            }
+
+            .parent1-child2, .parent3-child2 {
+                width: 350px;
+                height: 180px;
+            }
+
+            .parent1-child3, .parent2-child2 {
+                width: 350px;
+            }
+        }
+    }
+    
+
+    .box3-1
+    {
+        padding-left: 0px;
+        margin-left: 0
+;
+        .box3-1child {
+        padding-left: 10px;
+        margin: auto;
+        .child1, .child12 {
+            width: 300px;
+            height: 160px;
+            padding: 20px;
+        }
+    }
+    } 
+}
+
+@media (max-width: 768px) {
+    .box3 .box3- {
+        padding: 100px 0px 50px 100px;
+
+        .box3-parent1, .box3-parent2, .box3-parent3 {
+            .parent1-child1, .parent2-child1, .parent3-child1, .parent3-child3 {
+                width: 350px;
+                padding: 10px 0px 0px 10px;
+            }
+
+            .parent1-child2, .parent3-child2 {
+                width: 350px;
+                height: 180px;
+            }
+
+            .parent1-child3, .parent2-child2 {
+                width: 350px;
+            }
+        }
+    }
+    
+
+    .box3-1 {
+        padding-left: 0px;
+        margin-left: 0;
+        .box3-1child {
+       margin-left: 0;
+        margin: auto;
+        .child1{
+            width: 300px;
+            height: 160px;
+            margin-left: 0;
+            padding-left: 0;
+            padding: 0;
+        } .child12 {
+            width: 300px;
+            height: 160px;
+            margin-left: 0;
+            padding-left: 0;
+        }
+    }
+    } 
+}
+
+
+@media (max-width: 480px) {
+    .box3{
+        padding-left: 0;
+         .box3- {
+        padding: 80px 20px 40px 20px;
+        grid-template-columns: 1fr;
+
+        .box3-parent1, .box3-parent2, .box3-parent3 {
+            .parent1-child1, .parent2-child1, .parent3-child1, .parent3-child3 {
+                width: 100%;
+                padding: 5px 0px 0px 5px;
+            }
+
+            .parent1-child2, .parent3-child2 {
+                width: 100%;
+                height: auto;
+            }
+
+            .parent1-child3, .parent2-child2 {
+                width: 100%;
+            }
+        }
+    }
+
+    .box3-1 .box3-1child {
+        padding: 0px 0px 10px 0px;
+        margin: auto;
+        .child1, .child12 {
+            width: 90%;
+            height: auto;
+            padding: 15px;
+        }
+    }
+}
+    } 
+    
+   

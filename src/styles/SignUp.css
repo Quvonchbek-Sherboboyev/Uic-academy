@@ -1,0 +1,50 @@
+/* Bu yerda `SignIn.css` dagi kodni ishlatamiz */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(32, 32, 32)d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(237, 237, 237);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: aliceblue;
+  }
+  
+  .input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    background-color: #014690;
+  }
+  
+  .toggle-text {
+    margin-top: 20px;
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .toggle-text:hover {
+    color: #0056b3;
+  }
+  
